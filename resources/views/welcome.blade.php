@@ -930,18 +930,12 @@
   </div>
 
   <script>
-    /* ===========================================
-       LOADING BAR
-    =========================================== */
     (function initLoader() {
       const bar = document.getElementById('loaderBar');
       setTimeout(() => bar.classList.add('done'), 2000);
       setTimeout(() => bar.remove(), 2600);
     })();
 
-    /* ===========================================
-       CURSOR GLOW + DOT KUSTOM
-    =========================================== */
     (function initCursor() {
       const glow = document.getElementById('cursorGlow');
       const dot = document.getElementById('cursorDot');
@@ -965,8 +959,7 @@
         requestAnimationFrame(animateGlow);
       }
       requestAnimationFrame(animateGlow);
-
-      /* efek hover pada elemen interaktif */
+      
       const hoverables = document.querySelectorAll('[data-hoverable], button');
       hoverables.forEach(function (el) {
         el.addEventListener('mouseenter', function () { dot.classList.add('hovering'); });
@@ -974,9 +967,6 @@
       });
     })();
 
-    /* ===========================================
-       ELEMEN MENGAMBANG
-    =========================================== */
     (function initFloatingShapes() {
       var container = document.getElementById('floatingElements');
       var colors = ['#FF6B6B', '#4ECDC4', '#FFD93D', '#C4B5FD', '#FF9A8B', '#A8E6CF', '#F59E0B'];
