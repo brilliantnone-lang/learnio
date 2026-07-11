@@ -1021,9 +1021,6 @@
       for (var i = 0; i < 28; i++) createShape();
     })();
 
-    /* ===========================================
-       PARTIKEL KANVAS
-    =========================================== */
     (function initParticles() {
       var canvas = document.getElementById('particleCanvas');
       var ctx = canvas.getContext('2d');
@@ -1077,7 +1074,6 @@
           ctx.fill();
         }
 
-        /* garis koneksi halus antar partikel dekat */
         for (var a = 0; a < particles.length; a++) {
           for (var b = a + 1; b < particles.length; b++) {
             var dx = particles[a].x - particles[b].x;
@@ -1099,9 +1095,6 @@
       requestAnimationFrame(draw);
     })();
 
-    /* ===========================================
-       TOMBOL MAGNETIC
-    =========================================== */
     (function initMagneticButton() {
       var btn = document.getElementById('btnStart');
       var container = btn.parentElement;
@@ -1123,9 +1116,6 @@
       });
     })();
 
-    /* ===========================================
-       TOMBOL KLIK: RIPPLE + CONFETTI + TOAST
-    =========================================== */
     (function initButtonClick() {
       var btn = document.getElementById('btnStart');
       var toast = document.getElementById('toast');
@@ -1157,9 +1147,6 @@
       });
     })();
 
-    /* ===========================================
-       CONFETTI
-    =========================================== */
     function createConfetti(cx, cy) {
       var colors = ['#FF6B6B', '#4ECDC4', '#FFD93D', '#C4B5FD', '#FF9A8B', '#A8E6CF', '#F59E0B'];
       var shapes = ['circle', 'rect', 'triangle'];
