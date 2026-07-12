@@ -1177,7 +1177,6 @@
 
         document.body.appendChild(dot);
 
-        /* animasi lewat requestAnimationFrame agar trigger transisi */
         (function (d, a, dist, rot) {
           requestAnimationFrame(function () {
             requestAnimationFrame(function () {
@@ -1193,9 +1192,6 @@
       }
     }
 
-    /* ===========================================
-       PARALLAX MOUSE PADA KARAKTER + BLOB
-    =========================================== */
     (function initParallax() {
       var wrapper = document.getElementById('bookWrapper');
       var blobs = document.querySelectorAll('.blob');
