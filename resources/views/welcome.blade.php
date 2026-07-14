@@ -442,7 +442,6 @@
       border-radius: 0 0 50% 50%;
     }
 
-    /* Mahkota */
     .book-crown {
       position: absolute;
       top: -60px; left: 50%;
@@ -488,7 +487,6 @@
       50% { box-shadow: 0 0 10px rgba(255,107,107,0.7); }
     }
 
-    /* Sparkle */
     .sparkle {
       position: absolute;
       width: 10px; height: 10px;
@@ -519,7 +517,6 @@
       50% { opacity: 1; transform: scale(1.3) rotate(45deg); }
     }
 
-    /* === TEKS DENGAN REVEAL === */
     .splash-title {
       font-family: 'Quicksand', sans-serif;
       font-weight: 700;
