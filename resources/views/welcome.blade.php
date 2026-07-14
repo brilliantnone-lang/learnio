@@ -763,7 +763,6 @@
       to { opacity: 1; transform: translateY(0) scale(1) rotate(0deg); }
     }
 
-    /* === RESPONSIF === */
     @media (max-width: 480px) {
       .book-character { width: 140px; height: 170px; }
       .book-body { width: 100px; height: 125px; }
