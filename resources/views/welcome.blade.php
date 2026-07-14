@@ -34,7 +34,6 @@
       cursor: none;
     }
 
-    /* === LOADING BAR === */
     .loader-bar {
       position: fixed;
       top: 0; left: 0;
@@ -53,7 +52,6 @@
     @keyframes loaderGradient { to { background-position: 300% 0; } }
     @keyframes loaderExit { to { transform: translateY(-100%); opacity: 0; } }
 
-    /* === CURSOR GLOW === */
     .cursor-glow {
       position: fixed;
       width: 320px; height: 320px;
@@ -82,7 +80,6 @@
       transform: translate(-50%, -50%) scale(1);
     }
 
-    /* === BACKGROUND === */
     .bg-layer { position: fixed; inset: 0; z-index: 0; overflow: hidden; }
 
     .bg-gradient {
@@ -90,7 +87,6 @@
       background: linear-gradient(165deg, #FFFAF5 0%, #FFE8DD 35%, #FFF5EE 65%, #E8FFF8 100%);
     }
 
-    /* Gradient orb berputar */
     .bg-orb {
       position: absolute;
       top: 50%; left: 50%;
