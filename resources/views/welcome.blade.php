@@ -202,7 +202,6 @@
       text-align: center;
     }
 
-    /* === KARAKTER BUKU === */
     .book-wrapper {
       position: relative;
       margin-bottom: 16px;
