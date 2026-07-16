@@ -186,10 +186,8 @@
       100% { opacity: 0; transform: translateY(-10vh) rotate(360deg) scale(1.1); }
     }
 
-    /* === PARTIKEL CANVAS === */
     #particleCanvas { position: fixed; inset: 0; z-index: 2; pointer-events: none; }
 
-    /* === KONTEN UTAMA === */
     .splash-content {
       position: relative;
       z-index: 10;
