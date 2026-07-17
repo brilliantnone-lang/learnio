@@ -172,7 +172,6 @@
       50% { transform: translate(30px, 25px); }
     }
 
-    /* === FLOATING SHAPES === */
     .floating-elements { position: fixed; inset: 0; z-index: 1; pointer-events: none; }
     .float-item {
       position: absolute;
@@ -215,7 +214,6 @@
       50% { transform: translateY(-16px) rotate(1.5deg); }
     }
 
-    /* Orbit ring dekoratif */
     .orbit-ring {
       position: absolute;
       width: 250px; height: 250px;
