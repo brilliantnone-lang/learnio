@@ -240,7 +240,6 @@
     .orbit-ring-2 .orbit-dot { background: var(--mint); }
     @keyframes orbitSpin { to { transform: translate(-50%, -50%) rotate(360deg); } }
 
-    /* Bayangan buku */
     .book-shadow {
       position: absolute;
       bottom: 2px;
@@ -256,7 +255,6 @@
       50% { transform: translateX(-50%) scaleX(0.8); opacity: 0.04; }
     }
 
-    /* Tubuh buku */
     .book-body {
       position: absolute;
       bottom: 20px;
@@ -279,7 +277,6 @@
       border-radius: 4px 0 0 4px;
     }
 
-    /* Halaman buku yang bergerak */
     .book-page-edge {
       position: absolute;
       top: 4px; right: 3px;
