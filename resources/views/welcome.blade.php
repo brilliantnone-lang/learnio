@@ -294,7 +294,6 @@
       95% { transform: rotateY(0deg); }
     }
 
-    /* Garis halaman */
     .book-lines { position: absolute; top: 30px; left: 20px; right: 15px; }
     .book-line {
       height: 4px;
